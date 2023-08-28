@@ -1,12 +1,16 @@
 body {
-    position: relative;
+    /* position: relative;
     margin-left: 20%;
-    margin-right: 20%;
-    font-size: small;
+    margin-right: 20%; */
 }
 
 .grey_text {
     color: rgb(116, 116, 116, 0.9);
+}
+
+#link {
+    color:#61C2EC ;
+    text-decoration: none;
 }
 
 thead {
@@ -15,11 +19,38 @@ thead {
     text-align: left;
 }
 
+#last_cell{
+    width: 40%;
+}
+
 table {
     border-collapse: collapse;
     size: 100%;
 }
 
-.celle_celesti {
+.blue_background {
     background-color: #B1E5F2;
+}
+
+.marker {
+    background-color: yellow;
+}
+
+#background_monitor {
+    background-image: url(./img/monitor.jpg);
+    
+}
+
+#background_graph {
+    background-image: url(./img/graph.jpg);
+    margin-top: 30px;
+}
+
+.background_image {
+    background-size:cover ;
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: xx-large;
+
 }
