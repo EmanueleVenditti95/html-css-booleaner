@@ -1,3 +1,25 @@
+body {
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: small;
+}
+
 .grey_text {
     color: rgb(116, 116, 116, 0.9);
+}
+
+thead {
+    background-color: #20A9E5;
+    color: white;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    size: 100%;
+}
+
+.celle_celesti {
+    background-color: #B1E5F2;
 }
